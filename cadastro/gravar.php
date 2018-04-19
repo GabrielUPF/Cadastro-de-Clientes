@@ -11,7 +11,7 @@ $bairro      = $_POST['bairro'];
 $complemento = $_POST['complemento'];
 
 try{
-	$con = new PDO("mysql:host=localhost; dbname=ads", 'root', '');
+	$con = new PDO("mysql:host=localhost; dbname=ads", 'root', 'root');
 }
 catch(PDOException $e){
 	echo 'Falha na conexão: ' . $e->getMessage();
