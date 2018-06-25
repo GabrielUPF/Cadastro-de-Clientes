@@ -44,7 +44,7 @@
 
         //
         $acaoForm = "controladorCliente.php?acao=atualizar&id=".$id;
-        require_once('formCliente.php');
+        require_once('formAltera.php');
     }
 
     else if($acao=='atualizar'){
